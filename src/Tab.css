@@ -1,0 +1,30 @@
+.Tab{
+  width: 50%;
+  height: 40px;
+  display: inline-block;
+  border-radius: 20px 20px 0 0;
+  text-align: center;
+  position: relative;
+}
+.Active{
+  background-color: var(--B7);
+  pointer-events: none;
+}
+.Passive{
+  background-color: var(--B5);
+  cursor: pointer;
+}
+.Passive:hover{
+  background-color: var(--B6);
+}
+.Tab p{
+  color: var(--B0);
+  font-size: 24px;
+  font-family: "Kosugi Maru", sans-serif;
+  user-select: none;
+  position: absolute;
+  white-space: nowrap;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

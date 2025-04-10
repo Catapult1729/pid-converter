@@ -1,0 +1,8 @@
+.Input{
+  outline:0;
+  display:inline-block;
+}
+.Input::-webkit-inner-spin-button,.Input::-webkit-puter-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}

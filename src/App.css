@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  --Header-height: 80px;
+  overflow: hidden;
+  --B0:#18006d;
+  --B1:#180081;
+  --B2:#1e00a3;
+  --B3:#3641d3;
+  --B4:#5d76ff;
+  --B5:#84a5ff;
+  --B6:#a2c6ff;
+  --B7:#b4dbff;
+
+  --G0:#030404;
+  --G1:#060706;
+  --G2:#141514;
+  --G3:#454746;
+  --G4:#9ea09f;
+  --G5:#dee0df;
+  --G6:#f5f7f6;
+  --G7:#fcfefd;
+  
+}
+
+#root>div {
+  height: 100vh;
+  width: 100vw;
+  background-color:var(--G5);
+}
+
+*:has(.Hint) {
+  position: relative;
+}
