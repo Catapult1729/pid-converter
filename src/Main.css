@@ -20,7 +20,8 @@
   height: 100%;
 }
 .P2s{
-
+  flex-direction: column;
+  align-items: center;
 }
 .s2P{
   

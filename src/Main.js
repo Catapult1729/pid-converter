@@ -20,7 +20,7 @@ function Main() {
       </div>
       <div>
         <div className='P2s' style={{display:mode?'none':'flex'}}>
-          <Input placeholder={"例) 1999999"}></Input>
+          <Input placeholder={"enter Pid"}></Input>
           <Hint hasButton={true} content={{title:'Pid→.sb3' ,description:
           'Pidから.sb3ファイルに変換します。\nPidを入力して、ダウンロードボタンを押してください。'
           }}/>

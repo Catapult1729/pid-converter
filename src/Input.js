@@ -3,7 +3,7 @@ import './Input.css';
 
 function Input({placeholder}) {
   return (
-    <input className='Input' type='number' min={0} placeholder={placeholder}></input>
+    <input className='Input' type='number' min={0} max={100000000000} placeholder={placeholder}></input>
   );
 }
 
