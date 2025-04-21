@@ -20,8 +20,12 @@
   height: 100%;
 }
 .P2s{
+  box-sizing: border-box;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  padding: 240px 0;
+
 }
 .s2P{
   

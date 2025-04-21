@@ -5,6 +5,7 @@ import './Main.css';
 import Hint from './Hint';
 import Tab from './Tab';
 import Input from './Input';
+import Button from './Button';
 
 function Main() {
   const [mode, setMode] = useState(0);
@@ -21,6 +22,7 @@ function Main() {
       <div>
         <div className='P2s' style={{display:mode?'none':'flex'}}>
           <Input placeholder={"enter Pid"}></Input>
+          <Button label={".sb3に変換"} icon={"downloadIcon.svg"}></Button>
           <Hint hasButton={true} content={{title:'Pid→.sb3' ,description:
           'Pidから.sb3ファイルに変換します。\nPidを入力して、ダウンロードボタンを押してください。'
           }}/>
